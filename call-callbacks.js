@@ -40,10 +40,9 @@ lastChar("hello", function(string) {
 //   });
 
 function getFirstAndLast(string, callback) {
-    firstChar(string, function(first) {
-        lastChar(string, function(last) {
-            var firstLast = first+last;
-            callback(firstLast);
+    firstChar(string, function(str1) {
+        lastChar(string, function(str2) {
+            callback(str1+str2);
         });
     });
 }
