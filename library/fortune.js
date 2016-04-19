@@ -11,5 +11,5 @@ function getFortune() {
 }
 
 module.exports = {
-    fortune: getFortune
+    getFortune: getFortune
 };
