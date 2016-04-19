@@ -1,0 +1,19 @@
+{
+  "name": "first-module",
+  "version": "1.0.0",
+  "description": "This is my firsts module - for NodeJS Workshop 2",
+  "main": "call-callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poe21/node-workshop-2.git"
+  },
+  "author": "Annie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poe21/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/poe21/node-workshop-2#readme"
+}
